@@ -33,7 +33,7 @@ const data: Project[] = [
   {
     title: 'Child Support',
     subtitle: 'Driving Efficiency and Compliance in Child Support Programs',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '',
     date: '2018-12-16',
     desc:
       'The FDR DHCS project involves developing and maintaining a comprehensive' + 
@@ -49,8 +49,8 @@ const data: Project[] = [
   {
     title: 'CA Management',
     subtitle: 'Managing Digital Certificates for Reliable Authentication',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
+    link: '',
+    image: '',
     date: '2015-09-30',
     desc:
       'This project focuses on managing the lifecycle of digital certificates to' + 
@@ -60,8 +60,8 @@ const data: Project[] = [
   {
     title: 'Single Id',
     subtitle: 'Streamlining Authentication Across Systems',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
+    link: '',
+    image: '',
     date: '2013-07-08',
     desc:
       'This project implements Single Sign-On (SSO) and OAuth to enable secure,' + 
@@ -72,7 +72,7 @@ const data: Project[] = [
   {
     title: 'HR Systems',
     subtitle: 'Building a Smarter, More Connected Workforce',
-    image: '/images/projects/catdetector.jpg',
+    image: '',
     date: '2010-03-18',
     desc:
       'The application plays a critical role in HR operations ' +
