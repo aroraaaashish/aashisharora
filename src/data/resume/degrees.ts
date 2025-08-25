@@ -2,7 +2,8 @@ export interface Degree {
   school: string;
   degree: string;
   link: string;
-  year: number;
+  yearFrom: number;
+  yearTo: number;
 }
 
 const degrees: Degree[] = [
@@ -10,7 +11,8 @@ const degrees: Degree[] = [
     school: 'University Of Rajasthan',
     degree: 'B.E. Electronics and Communication',
     link: 'https://www.uniraj.ac.in/',
-    year: 2009,
+    yearFrom: 2005,
+    yearTo: 2009,
   },
 ];
 
