@@ -8,48 +8,78 @@ export interface Project {
 }
 
 const data: Project[] = [
-  {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
+    {
+    title: 'Key Mangement System',
+    subtitle: 'Centralized Control for Cryptographic Key Lifecycle Management',
     image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    date: '2023-01-15',
     desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
+      'The cryptographic key lifecycle ensures secure generation, delivery, storage,' +
+      'usage, rotation, and destruction of keys using HSMs and TEEs to maintain confidentiality' + 
+      'and integrity. Keys are protected in tamper-resistant hardware and isolated enclaves,' + 
+      'enabling safe cryptographic operations throughout their lifespan.',
+    },
+    {
+    title: 'Crypto Service',
+    subtitle: 'Protecting Data Integrity and Privacy Through Encryption',
+    image: '/images/projects/nearestdollar.jpg',
+    date: '2020-05-18',
+    desc:
+      'Creating crypto services with TEE enclaves and HSMs enables secure management' + 
+      'and execution of cryptographic operations. TEE enclaves protect sensitive computations' + 
+      'and keys within isolated processor environments, while HSMs provide hardware-based key' + 
+      'generation and storage',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
+    title: 'Child Support',
+    subtitle: 'Driving Efficiency and Compliance in Child Support Programs',
+    image: '/images/projects/nearestdollar.jpg',
+    date: '2018-12-16',
+    desc:
+      'The FDR DHCS project involves developing and maintaining a comprehensive' + 
+      'compliance management system for Federally Delegated Recipients (FDRs) under' + 
+      'California’s Department of Health Care Services (DHCS). The system automates' + 
+      'monitoring, auditing, and reporting processes to ensure adherence to federal' + 
+      'and state healthcare regulations. It integrates data from multiple sources,' + 
+      'supports risk assessment workflows, and provides dashboards for real-time' + 
+      'visibility into compliance status. This project enhances data accuracy,' +
+      'streamlines oversight operations, and mitigates risks related to healthcare' +
+      'service delivery and reimbursement',
+  },
+  {
+    title: 'CA Management',
+    subtitle: 'Managing Digital Certificates for Reliable Authentication',
     link: 'https://devpost.com/software/harvest',
     image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    date: '2015-09-30',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+      'This project focuses on managing the lifecycle of digital certificates to' + 
+      'ensure secure authentication and communication. It automates issuance, renewal' +
+      'and revocation of certificates, enhancing security and compliance across the organization.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
+    title: 'Single Id',
+    subtitle: 'Streamlining Authentication Across Systems',
     link: 'http://www.spacepotato.org',
     image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    date: '2013-07-08',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
+      'This project implements Single Sign-On (SSO) and OAuth to enable secure,' + 
+      'seamless access across multiple applications. SSO allows users to log in' +
+      'once for all services, while OAuth provides safe delegated access without' + 
+      'sharing passwords, improving security and user convenience.'
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    title: 'HR Systems',
+    subtitle: 'Building a Smarter, More Connected Workforce',
     image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    date: '2010-03-18',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
+      'The application plays a critical role in HR operations ' +
+      'Interfacing with key enterprise systems such as SED, Kronos' +
+      'and Payroll to ensure data consistency and process automation' +
+      'Providing data feeds to downstream applications to support accurate and timely processing' + 
+      'Enabling comprehensive reporting capabilities for managers to track, analyze, and manage workforce activity effectively',
   },
 ];
 
