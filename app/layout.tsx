@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Aashish Arora' }],
   creator: 'Aashish Arora',
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://aashisharora.onrender.com/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
