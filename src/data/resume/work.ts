@@ -13,127 +13,67 @@ export interface Position {
 
 const work: Position[] = [
   {
-    name: 'Promptfoo',
-    position: 'Co-founder & CTO',
-    url: 'https://promptfoo.dev',
-    startDate: '2024-07-01',
-    summary:
-      'Promptfoo builds open-source tools to evaluate, find, and fix vulnerabilities in large language models (LLMs). Our open-source tools are used by over 35,000 developers and researchers worldwide.',
+    name: 'Mastercard',
+    position: 'Principal Software Engineer',
+    url: 'https://www.mastercard.com/us/en.html',
+    startDate: '2022-07-01',
+    summary: `Responsible for proposing and designing innovative cybersecurity solutions leveraging 
+    cutting-edge technologies including Confidential Computing and Public Key Infrastructure to 
+    continuously strengthen the security posture for Mastercard. Also, leading the program with a 5M annual budget.`,
     highlights: [
-      'Built and scaled engineering team, emphasizing diversity and open-source contribution',
-      'Established key partnerships with AI research institutions and tech companies',
+      'Strategized and led the design and implementation of a next-generation, state-in-class key management platform for centralized control of symmetric and asymmetric keys across HSMs (Luna, nCipher) and Intel SGX-based TEE services, enhancing organizational cryptographic posture',
+      'Established enterprise-wide cryptographic key lifecycle governance, defining standards for creation, rotation, revocation, retirement, and recovery across critical internal and external platforms (Secure Access, Code Signer, Crypto-as-a-Service), ensuring compliance and operational resilience',
+      'Architected and championed a cloud-agnostic secure key delivery solution, removing vendor lock-in through PKCS#11 wrapping/unwrapping mechanisms and enabling seamless multi-cloud cryptographic operations',
     ],
   },
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    endDate: '2024-07-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    name: 'Mastercard',
+    position: 'Lead Software Engineer',
+    url: 'https://www.mastercard.com/us/en.html',
+    startDate: '2020-05-18',
+    endDate: '2022-06-30',
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
+      'Led the design and development of Crypto as a Service (CaaS) on Microsoft Azure, leveraging Luna HSMs to securely protect and manage token identities and support secure token signing for enterprise applications.',
+      'Provided technical and strategic leadership to a high-performing team, mentoring engineers in daily activities, resolving complex technical challenges, and fostering a culture of collaboration, innovation, and continuous improvement.',
+      'Managed the successful integration of CaaS with Enterprise Key Management Services (EKMS) to enable secure provisioning of card key bundles within HSMs, directly supporting mission-critical financial transactions aligned with EMV specifications'
     ],
   },
   {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-VC fund that makes angel investments. I consult with and invest
-    in startups in the Bay Area. I work part-time on this.`,
-    highlights: [
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-      'Advise startups on web, mobile, and ML engineering.',
-      'Sourced and analyzed over 1,000 startup deals.',
-      'Invested in over 60 startups.',
-    ],
-  },
-  {
-    name: 'Arthena',
-    position: 'Co-founder & CTO',
-    url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena is a Series A Company funded by <a href='https://www.anthemis.com/'>Anthemis</a>,
-    <a href='https://foundationcapital.com'>Foundation Capital</a>, and <a href='https://ycombinator.com'>YCombinator</a>.
-    We build quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were profitable and the #1 art investment platform in the world.`,
-    highlights: [
-      'Built production models for fine art valuation, resulting in $1.5B in cumulative art valuations (70k+ artworks).',
-      'Built computer vision models for artwork identification.',
-      'Designed and implemented CRM, data management, and accounting systems. Performed accounting and tax filings.',
-      'Set up company structure, worked with lawyers, and raised multiple fundraising rounds.',
-      'Managed a team of 15 engineers, data scientists, and analysts.',
-    ],
-  },
-  {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2016-01-01',
-    endDate: '2016-12-01',
-    summary: `Matroid is a Series A company funded by <a href='https://www.nea.com'>NEA</a> 
-    and <a href='https://www.accel.com'>Accel</a> building computer vision infrastructure.
-    I played a crucial role in the company's early development, contributing to both the
-    technical foundation and strategic direction.`,
-    highlights: [
-      'Developed core computer vision algorithms and initial product prototypes.',
-      "Worked with the team to define the company's vision and product roadmap.",
-      'Collaborated with CEO on fundraising and investor relations.',
-    ],
-  },
-  {
-    name: 'Planet',
-    position: 'Missions Intern',
-    url: 'https://planet.com',
-    startDate: '2014-06-01',
-    endDate: '2015-01-01',
-    highlights: [
-      'Developed open source mission control software from scratch in NodeJS.',
-      'Integrated with Google Earth, Cesium, and MATLAB.',
-    ],
-  },
-  {
-    name: 'Facebook',
-    position: 'Intern',
-    url: 'https://facebook.com',
-    startDate: '2012-06-01',
-    endDate: '2012-09-01',
+    name: 'Deloitte',
+    position: 'Senior Solution Specialist',
+    url: 'https://www.deloitte.com/us/en/services.html',
+    startDate: '2018-12-16',
+    endDate: '2020-05-15',
     highlights: [
       "Developed and optimized Facebook's core news feed algorithms.",
-      'Worked on large-scale data processing and machine learning infrastructure.',
+      'Spearheaded and mentored multiple cross-functional teams, encompassing full time staff and contractors, while overseeing all aspects of client, vendor, and stakeholder relationships, including negotiations on terms, scope, and deadlines.',
+      'Assessed platforms, conducted security testing, reviewed architecture and created standards and procedures. Helped business and IT to expand and modernize sites and apps securely for adapting cloud, microservices and containerization'
     ],
   },
   {
-    name: 'Startup',
-    position: 'Co-founder',
-    url: '#',
-    startDate: '2012-02-01',
-    endDate: '2013-01-01',
-    summary: 'Started an NFC-based marketing company with a team of four.',
+    name: 'Tech Mahindra',
+    position: 'Technology Lead',
+    url: 'https://www.techmahindra.com/',
+    startDate: '2013-07-08',
+    endDate: '2018-12-14',
+    summary: 'Responsible for implementing Certificate Authority and Single Sign On products',
+    highlights: [
+      'Involved in analyzing, designing and implementing cryptographic solutions (CaaS) (encrypt/decrypt, sign/verify, wrap/unwrap) using NodeJS, XML, REST Service.',
+      'Analyze and implemented SAML identity propagation (using FSSO, Managed SSO) to the different service providers via multiple identity providers such as Mastercard Single Id, Janrain etc',
+      'Led the team of 20+ developers accross the globe including North America, India, Belgium',
+    ],
   },
   {
-    name: 'UB Nanosatellite Program',
-    position: 'Hardware (Attitude Control) Lead',
-    url: 'https://ubnl.space/',
-    startDate: '2010-10-01',
-    endDate: '2012-06-01',
-    summary: 'Developed and implemented attitude control systems for university satellite project.',
+    name: 'Tata Consultancy Services Ltd',
+    position: 'Systems Engineer',
+    url: 'https://www.tcs.com/',
+    startDate: '2010-03-18',
+    endDate: '2013-07-05',
+    summary: 'Developed and implemented HR Systems for walgreens',
     highlights: [
-      'Designed Attitude Determination and Control System (ADCS) for satellite.',
-      'Integrated sun sensors, magnetometer, and reaction wheels.',
-      'Developed algorithms for satellite orientation control.',
+      'Conducted qualitative and quantitative risk analysis and identified high risk areas for remediation for HR Systems application',
+      'Interface with the subject matter experts to capture the process flow, data flow for their respective applications ',
+      'Implemented Persistence layer using Hibernate ORM and writing SQL queries based on Hibernate Criteria API ',
     ],
   },
 ];
