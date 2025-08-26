@@ -22,7 +22,7 @@ const sections = [
   { name: 'Education', id: 'education' },
   { name: 'Experience', id: 'experience' },
   { name: 'Skills', id: 'skills' },
-  { name: 'Courses', id: 'courses' },
+  // { name: 'Courses', id: 'courses' },
   { name: 'References', id: 'references' },
 ];
 
@@ -57,10 +57,10 @@ export default function ResumePage() {
         <Skills skills={skills} categories={categories} />
       </section>
 
-      <section id="courses" className="courses">
+      {/* <section id="courses" className="courses">
         <div className="link-to" />
         <Courses data={courses} />
-      </section>
+      </section> */}
 
       <section id="references" className="references">
         <div className="link-to" />
